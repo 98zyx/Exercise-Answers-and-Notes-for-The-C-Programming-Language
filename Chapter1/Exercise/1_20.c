@@ -6,7 +6,7 @@ int main()
     int rest = N;
     int c;
     while ((c = getchar()) != EOF)
-    {   
+    {
         if (c == '\t')
         {
             int i;
@@ -18,16 +18,12 @@ int main()
         else
         {
             putchar(c);
-            if (c != '\n')
+            rest--;
+            if (rest < 0 || c == '\n')
             {
-                rest--;
-                if (rest < 0)
-                {
-                    rest = N;
-                }
+                rest = N;
             }
-        }   
+        }
     }
     return 0;
-    
 }
