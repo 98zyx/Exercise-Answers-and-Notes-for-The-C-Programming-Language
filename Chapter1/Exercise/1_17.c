@@ -1,6 +1,6 @@
 #include <stdio.h>
 #define MAXLINE 1000
-#define THRESHOLD 10
+#define THRESHOLD 80
 int getline2(char s[], int lim)
 {
     int c, i, j;
@@ -22,6 +22,14 @@ int getline2(char s[], int lim)
     s[j] = '\0';
     return i;
 }
+/* copy: copy 'from' into 'to'; assume to is big enough */
+void copy(char to[], char from[])
+{
+    int i;
+    i = 0;
+    while ((to[i] = from[i]) != '\0')
+        ++i;
+}
 
 /* print the longest input line */
 main()
@@ -32,30 +40,10 @@ main()
     char longest[MAXLINE]; /* longest line saved here */
     max = 0;
     while ((len = getline2(line, MAXLINE)) > 0)
-    {
-        int i = len-1;
-        int flag_meet_word = 0;
-        for (; i >= 0; i--)
+        if (len > THRESHOLD)
         {
-            if (line[i] == '\t' || line[i] == ' ')
-            {
-                if (flag_meet_word == 0)
-                {
-                    line[i] = '\0';
-                }
-            }
-            else
-            {
-                if (line[i] != '\n')
-                {
-                    flag_meet_word = 1;
-                }
-            }
+            copy(longest, line);
+            printf("%s", longest);
         }
-        if (flag_meet_word == 1)
-        {
-            printf("%s", line);
-        }
-    }
     return 0;
 }
