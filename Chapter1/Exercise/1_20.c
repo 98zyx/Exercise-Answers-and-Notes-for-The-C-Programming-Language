@@ -14,6 +14,7 @@ int main()
             {
                 putchar(' ');
             }
+            rest = N;
         }
         else
         {
