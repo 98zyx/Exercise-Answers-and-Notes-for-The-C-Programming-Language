@@ -4,11 +4,11 @@ This project is for The C Programming Language, 2 Edition, it contains the answe
 ## Content
 [Chapter 1](https://github.com/98zyx/Exercise-Answers-and-Notes-for-The-C-Programming-Language/tree/main/Chapter1/Exercise) : all the answers except 1.24 are uploaded.
 
-Chapter 2 : 
+[Chapter 2](https://github.com/98zyx/Exercise-Answers-and-Notes-for-The-C-Programming-Language/tree/main/Chapter2/Exercise) : all the answers are uploaded.
 
-Chapter 3 : 
+[Chapter 3](https://github.com/98zyx/Exercise-Answers-and-Notes-for-The-C-Programming-Language/tree/main/Chapter3/Exercise) : all the answers are uploaded.
 
-Chapter 4 : 
+[Chapter 4](https://github.com/98zyx/Exercise-Answers-and-Notes-for-The-C-Programming-Language/tree/main/Chapter4/Exercise) : upload answer 1-4.
 
 Chapter 5 : 
 
