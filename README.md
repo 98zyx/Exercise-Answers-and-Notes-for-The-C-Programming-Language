@@ -16,4 +16,4 @@ This project is for The C Programming Language, 2 Edition, it contains the answe
 
 [Chapter 7](https://github.com/98zyx/Exercise-Answers-and-Notes-for-The-C-Programming-Language/tree/main/Chapter7/Exercise) : all the answers are uploaded.
 
-Chapter 8: because I do not learn operating system, I decide to skip the chapter.
+Chapter 8: because I have not learned operating system, I decide to skip the chapter.
